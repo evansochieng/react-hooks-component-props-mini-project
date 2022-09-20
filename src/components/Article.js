@@ -14,4 +14,4 @@ function Article({
     </>
 }
 
-export {Article};
+export default Article;

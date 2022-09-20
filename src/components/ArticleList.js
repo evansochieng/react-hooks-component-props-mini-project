@@ -1,5 +1,5 @@
 import React from "react";
-import {Article} from './Article'
+import Article from './Article'
 
 const ArticleList = ({posts}) => {
     return (
@@ -9,7 +9,7 @@ const ArticleList = ({posts}) => {
                 return <Article key={id} title={title} date={date} preview={preview}/>
             })}
         </main>
-    )
+    );
 };
 
 export default ArticleList;
